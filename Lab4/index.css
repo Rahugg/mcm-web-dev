@@ -1,0 +1,202 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, p, ul, li, table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and set font styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-elements {
+  list-style: none;
+  padding: 0;
+}
+
+.header-elements li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header-elements a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Main content styles */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Navigation menu styles */
+.destination-navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.destination-navigation li {
+  margin-right: 20px;
+}
+
+.destination-navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Table styles */
+.adventure-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.adventure-table caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.adventure-table th,
+.adventure-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.adventure-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Landscape image styles */
+.landscape-img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.adventure {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Apply a background color and set font styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-elements {
+  list-style: none;
+  padding: 0;
+}
+
+.header-elements li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header-elements a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Main content styles */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Navigation menu styles */
+.destination-navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.destination-navigation li {
+  margin-right: 20px;
+}
+
+.destination-navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Destination section styles */
+.destination-section {
+  margin-bottom: 40px;
+}
+
+.destination-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.destination-description {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Destination image styles */
+.destination-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

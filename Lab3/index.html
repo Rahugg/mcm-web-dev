@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warcraft 3 TFT</title>
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <ul class="header-elements">
+        <li><a href="/">Home</a></li>
+        <li><a href="./pages/races.html">Races</a></li>
+        <li><a href="./pages/about.html">About</a></li>
+      </ul>
+    </header>
+
+    <main class="content">
+      <h1>Welcome to Warcraft 3: The Frozen Throne</h1>
+      <img class="warcraft" src="./img/warcraft.jpg" alt="warcraft3" />
+      <p>
+        This website is your ultimate source for information about Warcraft
+        3.<br />
+        Explore the world of Azeroth, its races, heroes, and more!
+      </p>
+      <!-- Navigation Menu for Table -->
+      <nav class="table-navigation">
+        <ul>
+          <li><a href="#human">Human</a></li>
+          <li><a href="#orc">Orc</a></li>
+          <li><a href="#undead">Undead</a></li>
+          <li><a href="#night_elf">Night Elf</a></li>
+        </ul>
+      </nav>
+
+      <table class="heroes-table" id="heroes_table">
+        <caption>
+          Heroes of Each Race
+        </caption>
+        <thead>
+          <tr>
+            <th>Race</th>
+            <th>Image</th>
+            <th>Hero Name</th>
+            <th>Special Abilities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="human" rowspan="4">Human</td>
+            <td rowspan="4">
+              <img src="./img/human.jpg" class="race-img" alt="human" />
+            </td>
+          </tr>
+          <tr>
+            <td>Arthas</td>
+            <td>Death Coil, Divine Shield, ...</td>
+          </tr>
+          <tr>
+            <td>Jaina Proudmoore</td>
+            <td>Blizzard, Water Elemental, ...</td>
+          </tr>
+          <tr>
+            <td>Uther Lightbringer</td>
+            <td>Holy Light, Divine Shield, ...</td>
+          </tr>
+          <tr>
+            <td id="orc" rowspan="3">Orc</td>
+            <td rowspan="3">
+              <img src="./img/orc.jpg" class="race-img" alt="orc" />
+            </td>
+          </tr>
+          <tr>
+            <td>Thrall</td>
+            <td>Chain Lightning, Feral Spirit, ...</td>
+          </tr>
+          <tr>
+            <td>Grom Hellscream</td>
+            <td>Bladestorm, Critical Strike, ...</td>
+          </tr>
+          <tr>
+            <td id="undead" rowspan="3">Undead</td>
+            <td rowspan="3">
+              <img src="./img/undead.jpg" class="race-img" alt="undead" />
+            </td>
+          </tr>
+          <tr>
+            <td>Death Knight</td>
+            <td>Death Coil, Death Pact, ...</td>
+          </tr>
+          <tr>
+            <td>Sylvanas Windrunner</td>
+            <td>Black Arrow, Silence, ...</td>
+          </tr>
+          <tr>
+            <td id="night_elf" rowspan="4">Night Elf</td>
+            <td rowspan="4">
+              <img src="./img/night_elf.jpg" class="race-img" alt="night_elf" />
+            </td>
+          </tr>
+          <tr>
+            <td>Furion Stormrage</td>
+            <td>Entangling Roots, Force of Nature, ...</td>
+          </tr>
+          <tr>
+            <td>Tyrande Whisperwind</td>
+            <td>Starfall, Trueshot Aura, ...</td>
+          </tr>
+          <tr>
+            <td>Illidan Stormrage</td>
+            <td>Metamorphosis, Immolation, ...</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

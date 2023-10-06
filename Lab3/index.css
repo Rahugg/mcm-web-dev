@@ -1,0 +1,168 @@
+.header {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-elements {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header-elements li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.header-elements li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.header-elements li a:hover {
+  color: #ff5722;
+}
+
+/* MAiN CONTENT */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+.warcraft{
+   width:750;
+  height: 500px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.additional-content {
+  margin-top: 20px;
+}
+
+/* Navigation menu styles */
+.table-navigation {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.table-navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.table-navigation li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.table-navigation li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.table-navigation li a:hover {
+  color: #ff5722;
+}
+
+/* Table styles */
+.heroes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.heroes-table caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.heroes-table th,
+.heroes-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.heroes-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.heroes-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.race-img {
+  width: 250px;
+  height: 250px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+/*  styling for race-section */
+.race-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.race-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.race-description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  flex-grow: 1;
+}
+
+ /* styling for about page */
+ .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
