@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form action="index.php" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+
+    <label for="section">Section:</label>
+    <select id="section" name="section">
+        <option value="MA">MA</option>
+        <option value="MB">MB</option>
+        <option value="MC">MC</option>
+        <option value="MD">MD</option>
+        <option value="ME">ME</option>
+        <option value="MF">MF</option>
+        <option value="MG">MG</option>
+        <option value="MH">MH</option>
+    </select>
+    <div class="input-group">
+        <label>Credit Card</label>
+        <input type="text" id="card-number" name="card-number">
+        <label class="radio-label"><input type="radio" name="credit-card" value="Visa"> Visa</label>
+        <label class="radio-label"><input type="radio" name="credit-card" value="MasterCard"> MasterCard</label>
+    </div>
+
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
