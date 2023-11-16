@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             echo "Login successful. Welcome, " . $user['email'];
             $_SESSION['logged_in'] = true;
             $_SESSION['login_time'] = time();
-            header('Location: something.php');
+            header('Location: ../dynamicquiz/index.html');
         } else {
             $errors[] = "Invalid email or password.";
         }
