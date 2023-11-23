@@ -40,19 +40,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <h2>Register</h2>
 
-    <?php
-    if (!empty($errors)) {
-        echo '<div style="color: red;">' . implode('<br>', $errors) . '</div>';
-    }
-    ?>
+    <div id="errors"></div>
 
-    <form method="POST" action="register.php">
+    <form method="POST" action="register.php" id="registrationForm">
         <label>Email:</label>
-        <input type="text" name="email" required><br><br>
+        <input type="text" name="email" id="email" required><br><br>
         <label>Password:</label>
-        <input type="password" name="password" required><br><br>
+        <input type="password" name="password" id="password" required><br><br>
         <button type="submit">Register</button>
     </form>
+    <script src="index.js"></script>
 </body>
 
 </html>
